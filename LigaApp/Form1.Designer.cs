@@ -89,7 +89,6 @@
             // 
             this.textBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.StaticText;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(551, 237);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -200,6 +199,7 @@
             this.btnShfaq.TabIndex = 28;
             this.btnShfaq.Text = "Shfaq";
             this.btnShfaq.UseVisualStyleBackColor = true;
+            this.btnShfaq.Click += new System.EventHandler(this.btnShfaq_Click);
             // 
             // label2
             // 
@@ -231,6 +231,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(2, 81);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView1.Size = new System.Drawing.Size(519, 356);
             this.dataGridView1.TabIndex = 0;
             // 
@@ -364,6 +365,7 @@
             this.dataGridView2.Location = new System.Drawing.Point(6, 160);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView2.Size = new System.Drawing.Size(511, 233);
             this.dataGridView2.TabIndex = 23;
             // 
@@ -523,6 +525,7 @@
             this.dataGridView3.Location = new System.Drawing.Point(179, 60);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView3.Size = new System.Drawing.Size(168, 355);
             this.dataGridView3.TabIndex = 26;
             // 
@@ -565,6 +568,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SuperLiga e Kosoves";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.tabContorl1.ResumeLayout(false);
             this.Rezultatet.ResumeLayout(false);
